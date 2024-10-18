@@ -50,13 +50,13 @@ xrdb merge ~/.Xresources
 # launch notification daemon
 dunst -config $HOME/.config/bspwm/dunstrc &
 
-# launch battery tracker and redshift
+# launch battery tracker
 pkill battery-alert; ~/bin/battery-alert &
-pgrep -x redshift > /dev/null || redshift &
 
 # start compositor
 picom --config $HOME/.config/bspwm/picom_configurations/1.conf &
 
 # autostart
 flameshot &
+telegram &
 
