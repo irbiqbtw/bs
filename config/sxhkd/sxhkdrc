@@ -17,6 +17,12 @@ super + w
 	sh $HOME/bin/random_wallpaper
 
 # Change language
+ctrl + shift
+	sh $HOME/bin/change_language.sh
+
+Shift_L + ctrl
+	sh $HOME/bin/change_language.sh
+
 Alt_L + shift
 	sh $HOME/bin/change_language.sh
 
@@ -25,7 +31,7 @@ Shift_L + alt
     
 # Launch Rofi Menu
 super + {d,x}
-    {rofi -show drun,sh $HOME/bin/powermenu}
+    {rofi -show drun,sh $HOME/bin/wifimenu}
 
 # Launch Applications
 super + shift + {f,e,p,t,c,v,i,x,q,k,l}
@@ -39,7 +45,7 @@ super + shift + {f,e,p,t,c,v,i,x,q,k,l}
 	sh $HOME/bin/xcolor-pick, \
 	nvim, \
 	alacritty -e calcurse, \
-	sh $HOME/bin/screen-lock}
+	setxbkbmap "us";sh $HOME/bin/screen-lock}
      
 # Select window to close
 ctrl + super + alt + k

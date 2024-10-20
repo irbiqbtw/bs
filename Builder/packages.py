@@ -17,7 +17,7 @@ BASE_PACKAGES = [
 ]
 
 DEV_PACKAGES = [
-    "discord", "filezilla", "chromium", "keepassxc", "gufw", "python-pywal",
+    "discord", "filezilla", "keepassxc", "gufw", "python-pywal",
     "bleachbit", "gnome-firmware", "touche", "dconf-editor",
     "neovim", "telegram-desktop", "tmux", "code",
     "deluge-gtk", "flameshot", "obsidian", "python-pip", "bpython", "ipython", "cloc",
